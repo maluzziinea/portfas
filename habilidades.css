@@ -1,0 +1,561 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+    background-color: rgb(8, 8, 10);
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+header {
+    padding: 1%;
+    background-color: black;
+}
+
+.cabecalho {
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2.3%;
+}
+
+.botoes {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.55rem;
+}
+
+.icone-linkedin {
+    width: 2.813rem;
+    height: 2.813rem;
+    margin-top: 0.125rem;
+}
+
+.icone-instagram {
+    width: 3.125rem;
+    height: 3.125rem;
+}
+
+.icone-github {
+    width: 3.125rem;
+    height: 3.125rem;
+}
+
+.icone-github,
+.icone-instagram,
+.icone-linkedin {
+    margin-right: -0.625rem;
+}
+
+.minhas-habilidades {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .botoes:hover {
+    transition: 1s;
+    transform: translateX(5px) scale(1.1);
+}
+
+.icone-linkedin:hover {
+    transition: 1s;
+    transform: translateX(5px) scale(1.1);
+}
+
+.icone-github:hover {
+    transition: 1s;
+    transform: translateX(5px) scale(1.1);
+}
+
+.icone-instagram:hover {
+    transition: 1s;
+    transform: translateX(5px) scale(1.1);
+} */
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.card1 {
+    display: flex;
+    width: 30rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.icone-css {
+    width: 15rem;
+}
+
+.card2 {
+    display: flex;
+    width: 30rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.icone-html {
+    width: 15rem;
+}
+
+.card3 {
+    display: flex;
+    width: 30rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.icone-js {
+    width: 15rem;
+}
+
+.title1,
+.title2,
+.title3,
+.title4,
+.title5 {
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.icone-node {
+    width: 15rem;
+}
+
+.card4 {
+    display: flex;
+    width: 30rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+}
+
+.container1,
+.container2,
+.container3,
+.container4,
+.container5,
+.container6 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.card5 {
+    display: flex;
+    width: 30rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.icone-git {
+    width: 15rem;
+}
+
+.card6 {
+    display: flex;
+    width: 30rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.icone-github-1 {
+    width: 15rem;
+}
+
+@media (max-width: 1280px) and (min-width: 360px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Titillium Web', sans-serif;
+    }
+
+    body {
+        background-color: rgb(8, 8, 10);
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    p {
+        color: rgb(255, 255, 255);
+    }
+
+    header {
+        padding: 1%;
+        background-color: black;
+    }
+
+    .cabecalho {
+        font-size: 0.8rem;
+        display: flex;
+        justify-content: flex-end;
+        gap: 2.5%;
+    }
+
+    .botoes {
+        color: rgb(255, 255, 255);
+        margin-top: 3%;
+        margin-bottom: 3.5%;
+    }
+
+    .icone-linkedin {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .icone-instagram {
+        width: 1.75rem;
+        height: 1.75rem;
+        margin-top: 0.4rem;
+    }
+
+    .icone-github {
+        width: 1.75rem;
+        height: 1.75rem;
+        margin-top: 0.4rem;
+    }
+
+    .icone-github,
+    .icone-instagram,
+    .icone-linkedin {
+        margin-right: 0.03rem;
+    }
+
+
+    /* .botoes:hover {
+        transition: 1s;
+        transform: translateX(0.313rem) scale(1.1);
+    }
+
+    .icone-linkedin:hover {
+        transition: 1s;
+        transform: translateX(0.313rem) scale(1.1);
+    }
+
+    .icone-github:hover {
+        transition: 1s;
+        transform: translateX(0.313rem) scale(1.1);
+    }
+
+    .icone-instagram:hover {
+        transition: 1s;
+        transform: translateX(0.313rem) scale(1.1);
+    } */
+
+    .container1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .card1 {
+        display: flex;
+        width: 20rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .icone-css {
+        width: 7rem;
+    }
+
+    .card2 {
+        display: flex;
+        width: 20rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .icone-html {
+        width: 7rem;
+    }
+
+    .card3 {
+        display: flex;
+        width: 20rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .icone-js {
+        width: 7rem;
+    }
+
+    .title1,
+    .title2,
+    .title3,
+    .title4,
+    .title5,
+    .title6 {
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.7rem;
+    }
+
+    .icone-node {
+        width: 7rem;
+    }
+
+    .card4 {
+        display: flex;
+        width: 20rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container1,
+    .container2,
+    .container3,
+    .container4,
+    .container5,
+    .container6 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card5 {
+        display: flex;
+        width: 20rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .icone-git {
+        width: 7rem;
+    }
+
+    .card6 {
+        display: flex;
+        width: 20rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .icone-github-1 {
+        width: 7rem;
+    }
+
+    .minhas-habilidades {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1279px) and (min-width: 360px){
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Titillium Web', sans-serif;
+    }
+
+    body {
+        background-color: rgb(8, 8, 10);
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    p {
+        color: rgb(255, 255, 255);
+    }
+
+    header {
+        background-color: black;
+    }
+
+    .cabecalho {
+        font-size: 2rem;
+        display: flex;
+        justify-content: flex-end;
+        gap: 2.5%;
+    }
+
+    .botoes {
+        color: rgb(255, 255, 255);
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .icone-linkedin {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .icone-instagram {
+        width: 3.8rem;
+        height: 3.8rem;
+    }
+
+    .icone-github {
+        width: 3.8rem;
+        height: 3.8rem;
+    }
+
+    .icone-github,
+    .icone-instagram,
+    .icone-linkedin {
+        margin-right: 0.03rem;
+    }
+
+    .container1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .card1 {
+        display: flex;
+        width: 33rem;
+        height: 10rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .icone-css {
+        width: 11rem;
+    }
+
+    .card2 {
+        display: flex;
+        width: 33rem;
+        height: 10rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .icone-html {
+        width: 11rem;
+    }
+
+    .card3 {
+        display: flex;
+        width: 33rem;
+        height: 10rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .icone-js {
+        width: 11rem;
+    }
+
+    .title1,
+    .title2,
+    .title3,
+    .title4,
+    .title5,
+    .title6 {
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+    }
+
+    .icone-node {
+        width: 11rem;
+    }
+
+    .card4 {
+        display: flex;
+        width: 33rem;
+        height: 10rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container4 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card5 {
+        display: flex;
+        width: 33rem;
+        height: 10rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .icone-git {
+        width: 11rem;
+    }
+
+    .card6 {
+        display: flex;
+        width: 33rem;
+        height: 10rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .icone-github-1 {
+        width: 11rem;
+    }
+
+    .minhas-habilidades {
+        font-size: 5rem;
+    }
+}
