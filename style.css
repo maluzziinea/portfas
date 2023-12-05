@@ -99,7 +99,7 @@ a {
     cursor: pointer;
 }
 
-@media screen and (max-width: 1280px) and (min-width: 360px) {
+@media screen and (max-width: 1280px) {
     * {
         margin: 0;
         padding: 0;
@@ -198,7 +198,7 @@ a {
     }
 }
 
-@media screen and (max-width: 1279px) and (min-width: 360px){
+@media screen and (max-width: 1250px) {
     * {
         margin: 0;
         padding: 0;
@@ -230,23 +230,125 @@ a {
 
     .botoes {
         color: rgb(255, 255, 255);
-        margin-top: 1%;
-        margin-bottom: 1%;
+        margin-top: 3%;
+        margin-bottom: 3.5%;
     }
 
     .icone-linkedin {
         width: 3.5rem;
         height: 3.5rem;
+        margin-top: 2rem;
     }
 
     .icone-instagram {
-        width: 3.8rem;
-        height: 3.8rem;
+        width: 3.95rem;
+        height: 3.95rem;
+        margin-top: 1.8rem;
     }
 
     .icone-github {
-        width: 3.8rem;
-        height: 3.8rem;
+        width: 3.75rem;
+        height: 3.75rem;
+        margin-top: 1.8rem;
+    }
+
+    .icone-github,
+    .icone-instagram,
+    .icone-linkedin {
+        margin-right: 0.03rem;
+    }
+
+    .titulo-principal {
+        font-size: 4rem;
+        color: rgb(255, 255, 255);
+        font-weight: 100;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    .paragrafo-principal {
+        width: 50rem;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .texto-foto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .minha-foto {
+        width: 30rem;
+        /* bordas não estavam funcionando como deveriam. então fiz uma por uma. */
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        border: solid white 0.1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Titillium Web', sans-serif;
+    }
+
+    body {
+        background-color: rgb(8, 8, 10);
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    p {
+        color: rgb(255, 255, 255);
+    }
+
+    header {
+        background-color: black;
+    }
+
+    .cabecalho {
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: flex-end;
+        gap: 2.5%;
+    }
+
+    .botoes {
+        color: rgb(255, 255, 255);
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .icone-linkedin {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-top: 1.2rem;
+    }
+
+    .icone-instagram {
+        width: 2.8rem;
+        height: 2.8rem;
+        margin-top: 1.1rem;
+    }
+
+    .icone-github {
+        width: 2.8rem;
+        height: 2.8rem;
+        margin-top: 1.1rem;
     }
 
     .icone-github,
@@ -267,7 +369,7 @@ a {
     }
 
     .paragrafo-principal {
-        width: 55rem;
+        width: 30rem;
         font-size: 1.5rem;
         display: flex;
         justify-content: center;
@@ -294,7 +396,107 @@ a {
     }
 }
 
-@media screen and (max-width: 420px) and (min-width: 360px){
+@media screen and (max-width: 460px) {
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Titillium Web', sans-serif;
+    }
+
+    body {
+        background-color: rgb(8, 8, 10);
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    p {
+        color: rgb(255, 255, 255);
+    }
+
+    header {
+        background-color: black;
+    }
+
+    .cabecalho {
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: flex-end;
+        gap: 1.8%;
+    }
+
+    .botoes {
+        color: rgb(255, 255, 255);
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+
+    .icone-linkedin {
+        width: 2rem;
+        height: 2rem;
+        margin-top: 1.2rem;
+    }
+
+    .icone-instagram {
+        width: 2.2rem;
+        height: 2.2rem;
+        margin-top: 1.1rem;
+    }
+
+    .icone-github {
+        width: 2.2rem;
+        height: 2.2rem;
+        margin-top: 1.1rem;
+    }
+
+    .icone-github,
+    .icone-instagram,
+    .icone-linkedin {
+        margin-right: 0.03rem;
+    }
+
+    .titulo-principal {
+        font-size: 3rem;
+        color: rgb(255, 255, 255);
+        font-weight: 100;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .paragrafo-principal {
+        width: 20rem;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+    }
+
+    .texto-foto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .minha-foto {
+        width: 20rem;
+        /* bordas não estavam funcionando como deveriam. então fiz uma por uma. */
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        border: solid white 0.1rem;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
     * {
         margin: 0;
         padding: 0;
@@ -321,102 +523,6 @@ a {
         font-size: 1rem;
         display: flex;
         justify-content: flex-end;
-        gap: 1.5%;
-    }
-
-    .botoes {
-        color: rgb(255, 255, 255);
-        margin-top: 1%;
-        margin-bottom: 1%;
-    }
-
-    .icone-linkedin {
-        width: 2.5rem;
-        height: 2.5rem;
-    }
-
-    .icone-instagram {
-        width: 2.8rem;
-        height: 2.8rem;
-    }
-
-    .icone-github {
-        width: 2.8rem;
-        height: 2.8rem;
-    }
-
-    .icone-github,
-    .icone-instagram,
-    .icone-linkedin {
-        margin-right: 0.03rem;
-    }
-
-    .titulo-principal {
-        font-size: 3rem;
-        color: rgb(255, 255, 255);
-        font-weight: 100;
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        margin-top: 1rem;
-    }
-
-    .paragrafo-principal {
-        width: 22rem;
-        font-size: 1.2rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: justify;
-    }
-
-    .texto-foto {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        flex-direction: column;
-    }
-
-    .minha-foto {
-        width: 18rem;
-        /* bordas não estavam funcionando como deveriam. então fiz uma por uma. */
-        border-top-left-radius: 1rem;
-        border-top-right-radius: 1rem;
-        border-bottom-left-radius: 1rem;
-        border-bottom-right-radius: 1rem;
-        border: solid white 0.1rem;
-    }
-}
-
-@media screen and (max-width: 820px) and (min-width: 420px){
-    * {
-        margin: 0;
-        padding: 0;
-        font-family: 'Titillium Web', sans-serif;
-    }
-
-    body {
-        background-color: rgb(8, 8, 10);
-    }
-
-    a {
-        text-decoration: none;
-    }
-
-    p {
-        color: rgb(255, 255, 255);
-    }
-
-    header {
-        background-color: black;
-    }
-
-    .cabecalho {
-        font-size: 1.5rem;
-        display: flex;
-        justify-content: flex-end;
         gap: 1.8%;
     }
 
@@ -427,18 +533,21 @@ a {
     }
 
     .icone-linkedin {
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 2rem;
+        height: 2rem;
+        margin-top: 1rem;
     }
 
     .icone-instagram {
-        width: 2.8rem;
-        height: 2.8rem;
+        width: 2.2rem;
+        height: 2.2rem;
+        margin-top: 0.9rem;
     }
 
     .icone-github {
-        width: 2.8rem;
-        height: 2.8rem;
+        width: 2.2rem;
+        height: 2.2rem;
+        margin-top: 0.9rem;
     }
 
     .icone-github,
@@ -448,7 +557,7 @@ a {
     }
 
     .titulo-principal {
-        font-size: 3.5rem;
+        font-size: 2rem;
         color: rgb(255, 255, 255);
         font-weight: 100;
         display: flex;
@@ -459,8 +568,8 @@ a {
     }
 
     .paragrafo-principal {
-        width: 28rem;
-        font-size: 1.3rem;
+        width: 20rem;
+        font-size: 1rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -476,7 +585,7 @@ a {
     }
 
     .minha-foto {
-        width: 20rem;
+        width: 15rem;
         /* bordas não estavam funcionando como deveriam. então fiz uma por uma. */
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
