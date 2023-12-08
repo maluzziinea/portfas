@@ -68,17 +68,45 @@ a {
     cursor: pointer;
 }
 
-.em-breve-text {
-    font-size: 10rem;
+.content-projetos {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
+    gap: 5rem;
+    margin-top: 4rem;
 }
 
-.em-breve-text:hover {
-    transition: 0.3s;
-    transform: translateX(1px) scale(0.9);
+.projeto-mario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-mario {
+    width: 35rem;
+}
+
+.txt-mario {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.projeto-datamed {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.img-datamed {
+    width: 15rem;
+}
+
+.txt-datamed {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 1280px) {
@@ -142,12 +170,46 @@ a {
         margin-right: 0.03rem;
     }
 
-    .em-breve-text {
-        font-size: 4rem;
+
+    .content-projetos {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 50%;
+        gap: 5rem;
+        margin-top: 4rem;
+    }
+
+    .projeto-mario {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .img-mario {
+        width: 35rem;
+    }
+
+    .txt-mario {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .projeto-datamed {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .img-datamed {
+        width: 15rem;
+    }
+
+    .txt-datamed {
+        font-size: 1.5rem;
+        margin-left: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -211,6 +273,48 @@ a {
     .icone-linkedin {
         margin-right: 0.03rem;
     }
+
+
+    .content-projetos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        margin-top: 4rem;
+    }
+
+    .projeto-mario {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .img-mario {
+        width: 35rem;
+    }
+
+    .txt-mario {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .projeto-datamed {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .img-datamed {
+        width: 15rem;
+    }
+
+    .txt-datamed {
+        font-size: 1.5rem;
+        margin-left: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
@@ -272,6 +376,51 @@ a {
     .icone-instagram,
     .icone-linkedin {
         margin-right: 0.03rem;
+    }
+
+    .content-projetos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .projeto-mario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .img-mario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25rem;
+    }
+
+    .txt-mario {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .projeto-datamed {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .img-datamed {
+        width: 10rem;
+    }
+
+    .txt-datamed {
+        font-size: 1.5rem;
+        margin-left: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -335,6 +484,51 @@ a {
     .icone-linkedin {
         margin-right: 0.03rem;
     }
+
+    .content-projetos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .projeto-mario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .img-mario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 18rem;
+    }
+
+    .txt-mario {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .projeto-datamed {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .img-datamed {
+        width: 8rem;
+    }
+
+    .txt-datamed {
+        font-size: 1rem;
+        margin-left: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
@@ -396,5 +590,49 @@ a {
     .icone-instagram,
     .icone-linkedin {
         margin-right: 0.03rem;
+    }
+    
+    .content-projetos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .projeto-mario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .img-mario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 18rem;
+    }
+
+    .txt-mario {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .projeto-datamed {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .img-datamed {
+        width: 8rem;
+    }
+
+    .txt-datamed {
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
