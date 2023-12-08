@@ -398,11 +398,13 @@ header {
     .icone-instagram {
         width: 3.8rem;
         height: 3.8rem;
+        margin-top: 1.8rem;
     }
 
     .icone-github {
         width: 3.8rem;
         height: 3.8rem;
+        margin-top: 1.8rem;
     }
 
     .icone-github,

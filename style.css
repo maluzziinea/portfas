@@ -119,6 +119,7 @@ a {
     }
 
     header {
+        padding: 1%;
         background-color: black;
     }
 
@@ -241,14 +242,14 @@ a {
     }
 
     .icone-instagram {
-        width: 3.95rem;
-        height: 3.95rem;
+        width: 3.8rem;
+        height: 3.8rem;
         margin-top: 1.8rem;
     }
 
     .icone-github {
-        width: 3.75rem;
-        height: 3.75rem;
+        width: 3.8rem;
+        height: 3.8rem;
         margin-top: 1.8rem;
     }
 
